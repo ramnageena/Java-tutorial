@@ -13,7 +13,8 @@ public class PallindromString {
              if(s.charAt(i)!= s.charAt(s.length()-1))
                  flag=false;
              break;
-         }
+          }
+
         if(flag){
             System.out.println("String  is Pallindrome");
         }else
