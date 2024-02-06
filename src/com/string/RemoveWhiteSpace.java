@@ -6,5 +6,7 @@ public class RemoveWhiteSpace {
 
         String s = str.replaceAll("\\s", "");
         System.out.println(s);
+
+
     }
 }
