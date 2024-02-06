@@ -14,7 +14,6 @@ public class PallindromString {
                  flag=false;
              break;
           }
-
         if(flag){
             System.out.println("String  is Pallindrome");
         }else
