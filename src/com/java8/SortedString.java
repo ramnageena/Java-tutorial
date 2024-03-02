@@ -8,7 +8,8 @@ public class SortedString {
 
         List<String> str = List.of("Shubham", "Aman", "Ram", "Akshu", "Nihal");
         List<String> stringList = str.stream().sorted().collect(Collectors.toList());
-        System.out.println("Sorted List " + stringList);
+        System.out.println("Sorted String List " + stringList);
 
     }
 }
+//Sorted String List [Akshu, Aman, Nihal, Ram, Shubham]

@@ -9,3 +9,6 @@ public class CountStringWithSomeNoOFLength {
         System.out.println("Number of String those have more than 5 Char = " +count);
     }
 }
+/*
+Number of String those have more than 5 Char = 3
+ */

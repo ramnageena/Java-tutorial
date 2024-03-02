@@ -23,3 +23,7 @@ public class EvenOdd {
 
     }
 }
+/*
+Even numbers: [44, 22, 14, 78]
+Odd numbers: [17, 39, 65, 99]
+ */

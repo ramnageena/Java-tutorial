@@ -11,3 +11,4 @@ public class DoubleOfEachElement {
         System.out.println("Double of Each Element "+ list);
     }
 }
+//Double of Each Element [1, 4, 9, 16, 225, 25]

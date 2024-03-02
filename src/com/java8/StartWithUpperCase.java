@@ -9,18 +9,25 @@ public class StartWithUpperCase {
         //Find the String those start with Upper Case
         List<String> str = List.of("Ram", "Hanuman", "sita", "lakshman", "bharat");
         List<String> upperCase = str.stream().filter(s -> Character.isUpperCase(s.charAt(0))).collect(Collectors.toList());
-        System.out.println("String Start with Upper case "+ upperCase);
+        System.out.println("String Start with Upper case " + upperCase);
 
         //Find the String those start with Lower Case
         List<String> lowerCase = str.stream().filter(s -> Character.isLowerCase(s.charAt(0))).collect(Collectors.toList());
-        System.out.println("String Start with Lower case "+ lowerCase);
+        System.out.println("String Start with Lower case " + lowerCase);
 
         //IInd ways
 
         Map<Boolean, List<String>> listMap = str.stream().collect(Collectors.partitioningBy(s -> Character.isUpperCase(s.charAt(0))));
-        System.out.println("String Start with Upper case "+ listMap.get(true));
-        System.out.println("String Start with Lower case "+ listMap.get(false));
-
+        System.out.println("IInd ways String Start with Upper case " + listMap.get(true));
+        System.out.println("IInd ways String Start with Lower case " + listMap.get(false));
 
     }
 }
+
+/*
+String Start with Upper case [Ram, Hanuman]
+String Start with Lower case [sita, lakshman, bharat]
+IInd ways String Start with Upper case [Ram, Hanuman]
+IInd ways String Start with Lower case [sita, lakshman, bharat]
+
+ */
