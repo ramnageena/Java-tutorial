@@ -42,3 +42,12 @@ public class StudentTest {
         System.out.println("Unique Age: "+collect);
     }
 }
+/*
+Student{id='02', name='Akshu', age=25, marks=[87, 90, 98, 95]}
+{32=[Student{id='03', name='Ravi', age=32, marks=[87, 90, 98, 95]}], 25=[Student{id='01', name='Ram', age=25, marks=[87, 90, 98, 95]}, Student{id='02', name='Akshu', age=25, marks=[87, 90, 98, 95]}, Student{id='08', name='Hemant', age=25, marks=[87, 90, 98, 95]}], 27=[Student{id='04', name='Shubham', age=27, marks=[87, 90, 98, 95]}, Student{id='05', name='Pranali', age=27, marks=[87, 90, 98, 95]}], 28=[Student{id='06', name='Reshma', age=28, marks=[87, 90, 98, 95]}, Student{id='07', name='Ashish', age=28, marks=[87, 90, 98, 95]}]}
+{Akshu=[Student{id='02', name='Akshu', age=25, marks=[87, 90, 98, 95]}], Ravi=[Student{id='03', name='Ravi', age=32, marks=[87, 90, 98, 95]}], Hemant=[Student{id='08', name='Hemant', age=25, marks=[87, 90, 98, 95]}], Ashish=[Student{id='07', name='Ashish', age=28, marks=[87, 90, 98, 95]}], Pranali=[Student{id='05', name='Pranali', age=27, marks=[87, 90, 98, 95]}], Reshma=[Student{id='06', name='Reshma', age=28, marks=[87, 90, 98, 95]}], Shubham=[Student{id='04', name='Shubham', age=27, marks=[87, 90, 98, 95]}], Ram=[Student{id='01', name='Ram', age=25, marks=[87, 90, 98, 95]}]}
+{32=[Ravi], 25=[Ram, Akshu, Hemant], 27=[Shubham, Pranali], 28=[Reshma, Ashish]}
+{false=[Ram, Akshu, Hemant], true=[Ravi, Shubham, Pranali, Reshma, Ashish]}
+Unique Age: [25, 32, 27, 28]
+
+ */

@@ -25,7 +25,7 @@ public class EmployeeTest {
         System.out.println(groupingByCity);
     }
 
-
+//{Delhi=[Sudhir], Chennai=[Ram, Shubham], Bhopal=[Anshu]}
 
 
 
