@@ -14,6 +14,10 @@ public class Student {
     String name;
     String city;
 
+    public Student() {
+        System.out.println("Default constructor");
+    }
+
     Student(int id, String name, String city){
         System.out.println("Id :"+ " " + id + " Name :" +" "+ name + " City:" +" "+ city);
     }
