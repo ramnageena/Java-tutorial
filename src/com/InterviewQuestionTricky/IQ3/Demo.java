@@ -25,7 +25,7 @@ class C extends  B{
 
 public class Demo {
     public static void main(String[] args) {
-         B c= new C();
+         C c= new C();
          c.add();
     }
 }
