@@ -1,4 +1,7 @@
 package com.oops.Constructor;
+/*
+  
+ */
  class Beer{
      String brandName;
      int price;
