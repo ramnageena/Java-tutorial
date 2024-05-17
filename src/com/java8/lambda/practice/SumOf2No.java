@@ -5,7 +5,7 @@ interface SumOfTwoNo{
 
 public class SumOf2No {
     public static void main(String[] args) {
-        SumOfTwoNo sum = (a, b) -> a + b;
-        System.out.println("Sum of two  number : " + sum.sum(10, 20));
+        SumOfTwoNo s = (a, b) -> a + b;
+        System.out.println("Sum of two  number : " + s.sum(10, 20));
     }
 }
