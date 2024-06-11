@@ -19,5 +19,6 @@ public class Sum_of_sqaure_of_Digit {
             n=n/10;
         }
         System.out.println(sum);
+
     }
 }
