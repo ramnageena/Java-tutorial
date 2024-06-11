@@ -11,8 +11,8 @@ public class Anagram {
             System.out.println("Both the string length are not same thats why it's not a Anagram");
         }else{
             // firstly converting  string to lowerCase then to Character Array
-            char[] str1 = s1.toLowerCase().toCharArray();
-            char[] str2 = s2.toLowerCase().toCharArray();
+            char[] str1 = s1.replaceAll("\\s","").toLowerCase().toCharArray();
+            char[] str2 = s2.replaceAll("\\s","").toLowerCase().toCharArray();
 
             //sorting the char[] array
             Arrays.sort(str1);
@@ -26,3 +26,4 @@ public class Anagram {
         }
     }
 }
+
