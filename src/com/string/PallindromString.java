@@ -14,9 +14,13 @@ public class PallindromString {
                  flag=false;
              break;
           }
-        if(flag){
-            System.out.println("String  is Pallindrome");
-        }else
-            System.out.println("String  is  not Pallindrome");
+//        if(flag){
+//            System.out.println("String  is Pallindrome");
+//        }else
+//            System.out.println("String  is  not Pallindrome");
+
+        //using ternary operator
+        String s1 = flag  ? "String is pallindrom" : "String is not pallindrom";
+        System.out.println(s1);
     }
 }
